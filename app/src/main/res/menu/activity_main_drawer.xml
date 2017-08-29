@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_map"
+            android:title="Standort" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/ic_menu_update"
+            android:title="Update" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Einstellungen" />
+    </group>
+
+    <item android:title="Daten erfassen">
+        <menu>
+            <item
+                android:id="@+id/nav_pos"
+                android:title="Aktuelle Position" />
+            <item
+                android:id="@+id/nav_poi"
+                android:title="Points of Interest" />
+        </menu>
+    </item>
+
+</menu>
